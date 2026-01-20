@@ -234,7 +234,7 @@ fn handle_connection(mut stream: TcpStream, db: Arc<Mutex<Connection>>) {
 fn call_claude_api(user_message: &str) -> String {
     let api_key = std::env::var("CLAUDE_API_KEY")
         .expect("CLAUDE_API_KEY environment variable must be set");
-    
+
     let client = reqwest::blocking::Client::new();
     let response = client
         .post("https://api.anthropic.com/v1/messages")
@@ -249,7 +249,7 @@ fn call_claude_api(user_message: &str) -> String {
             ]
         }))
         .send();
-    
+
     match response {
         Ok(resp) => {
             match resp.json::<serde_json::Value>() {
@@ -271,4 +271,3 @@ fn call_claude_api(user_message: &str) -> String {
         }
     }
 }
-

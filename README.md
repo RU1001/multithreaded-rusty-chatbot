@@ -7,10 +7,6 @@ A multithreaded web server built from scratch in Rust featuring real-time AI con
 - **Custom ThreadPool Implementation** - 4 worker threads handling concurrent requests
 - **AI-Powered Chat** - Integration with Anthropic's Claude API
 - **Persistent Storage** - SQLite database stores all conversations
-- **Modern Web UI** - Clean, responsive chat interface
-- **Thread-Safe Operations** - Concurrent database access with `Arc<Mutex>`
-- **Robust Error Handling** - Graceful failures without crashes
-
 ## 🛠️ Tech Stack
 
 - **Rust** - Systems programming language
@@ -195,23 +191,7 @@ This project demonstrates concepts from:
 - Rust async vs sync I/O patterns
 - Thread-safe shared state with `Arc<Mutex<T>>`
 
-## 📝 License
-
-MIT License - feel free to use this project for learning!
-
-## 🤝 Contributing
-
-This is a learning project, but suggestions and improvements are welcome! Feel free to:
-- Open issues for bugs
-- Submit pull requests
-- Fork and modify for your own learning
-
-## 🙏 Acknowledgments
 
 - Built following [The Rust Book](https://doc.rust-lang.org/book/)
 - Powered by [Anthropic's Claude API](https://www.anthropic.com)
-- Inspired by the Rust community
 
----
-
-**Made with 🦀 and Rust**
