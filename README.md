@@ -5,7 +5,7 @@
 
 
 
-![Screenshot](Screenshot%20from%202026-01-20%2016-39-05.png)
+![Screenshot](screenshot.png)
 
 
 
