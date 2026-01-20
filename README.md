@@ -1,11 +1,11 @@
 # 🤖 Rust AI Chat Server
-![Screencast](screencast.gif)
+![Screencast](images/screencast.gif)
 
 
 
 
 
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
 
 
 
