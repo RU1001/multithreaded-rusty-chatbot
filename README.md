@@ -5,6 +5,9 @@
 
 
 
+![Screenshot](screenshot.png)
+
+
 
 A multithreaded web server built from scratch in Rust featuring real-time AI conversations with Claude and persistent chat history. This is an extension of the last project in the Rust Programming Language Book.
 
