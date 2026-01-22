@@ -56,8 +56,8 @@ Before running this project, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/rust-ai-chat-server.git
-   cd rust-ai-chat-server
+   git clone https://github.com/yourusername/multithreaded-rusty-chatbot.git
+   cd multithreaded-rusty-chatbot
    ```
 
 2. **Set your Claude API key**
